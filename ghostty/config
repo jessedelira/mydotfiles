@@ -1,0 +1,13 @@
+theme = "dracula"
+font-family = "MonoLisa"
+font-size = "16"
+
+title = ""
+macos-titlebar-style = "tabs"
+
+keybind = cmd+n=new_tab
+
+window-padding-x = 15
+window-padding-y = 15
+
+
