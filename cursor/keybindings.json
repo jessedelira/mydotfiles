@@ -1,0 +1,18 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    { "key": "shift shift", "command": "workbench.action.showCommands" },
+    {
+      "key": "shift+cmd+s",
+      "command": "workbench.view.scm",
+      "when": "workbench.scm.active"
+    },
+    {
+      "key": "shift+cmd+e",
+      "command": "workbench.view.explorer"
+    },
+    {
+      "key": "shift+cmd+p",
+      "command": "workbench.view.extensions"
+    }
+  ]
+  

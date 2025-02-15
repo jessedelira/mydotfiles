@@ -1,0 +1,121 @@
+{
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "breadcrumbs.enabled": false,
+    "css.validate": false,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.terminal.clearBeforeReusing": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "editor.codeLensFontFamily": "MonoLisa",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontFamily": "MonoLisa,Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.inlineSuggest.enabled": true,
+    "editor.largeFileOptimizations": false,
+    "editor.lineHeight": 0,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.stickyScroll.enabled": true,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+    "emmet.showExpandedAbbreviation": "always",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "task.problemMatchers.neverPrompt": {
+        "shell": true
+    },
+    "terminal.external.osxExec": "iTerm 2.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "terminal.integrated.fontFamily": "MonoLisa",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.lineHeight": 0,
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "zsh"
+        }
+    },
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.smoothScrolling": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.empty.hint": "hidden",
+    "python.analysis.extraPaths": [],
+    "workbench.statusBar.visible": false,
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "Classes \\=([^;]*);",
+            "'([^']*)'"
+        ],
+        [
+            "Classes \\=([^;]*);",
+            "\"([^\"]*)\""
+        ],
+        [
+            "Classes \\=([^;]*);",
+            "\\`([^\\`]*)\\`"
+        ]
+    ],
+    "window.commandCenter": false,
+    "security.promptForLocalFileProtocolHandling": false,
+    "symbols.hidesExplorerArrows": true,
+    "workbench.iconTheme": "symbols",
+    "diffEditor.experimental.useTrueInlineView": true,
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "cursor.cpp.disabledLanguages": [
+        "scminput"
+    ],
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "workbench.colorTheme": "Min Light"
+}
