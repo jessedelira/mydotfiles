@@ -25,7 +25,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "breadcrumbs.enabled": false,
-    "css.validate": false,
+    "css.validate": true,
     "debug.internalConsoleOptions": "openOnSessionStart",
     "debug.terminal.clearBeforeReusing": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -68,9 +68,6 @@
     },
     "terminal.external.osxExec": "iTerm 2.app",
     "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
-    },
     "terminal.integrated.fontFamily": "MonoLisa",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.gpuAcceleration": "on",
@@ -86,7 +83,7 @@
     "terminal.integrated.shellIntegration.enabled": true,
     "terminal.integrated.smoothScrolling": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0.5,
     "workbench.activityBar.location": "hidden",
     "workbench.editor.empty.hint": "hidden",
     "python.analysis.extraPaths": [],
@@ -110,12 +107,9 @@
     "symbols.hidesExplorerArrows": true,
     "workbench.iconTheme": "symbols",
     "diffEditor.experimental.useTrueInlineView": true,
-    "[sql]": {
-        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
-    },
     "cursor.cpp.disabledLanguages": [
         "scminput"
     ],
     "terminal.integrated.sendKeybindingsToShell": true,
-    "workbench.colorTheme": "Min Light"
+    "workbench.colorTheme": "Min Light",
 }
