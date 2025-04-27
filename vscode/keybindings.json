@@ -11,14 +11,18 @@
     "command": "workbench.view.explorer"
   },
   {
-    "key": "cmd+l",
-    "command": "workbench.action.chat.open",
-    "args": { "position": "right", "focus": true },
-    "when": "!auxiliaryBarVisible"
-  },
-  {
-    "key": "cmd+l",
-    "command": "workbench.action.closeAuxiliaryBar",
-    "when": "auxiliaryBarVisible"
+    "key": "shift+cmd+r",
+    "command": "workbench.view.remote"
   }
+  // {
+  //   "key": "cmd+l",
+  //   "command": "workbench.action.chat.open",
+  //   "args": { "position": "right", "focus": true },
+  //   "when": "!auxiliaryBarVisible"
+  // },
+  // {
+  //   "key": "cmd+l",
+  //   "command": "workbench.action.closeAuxiliaryBar",
+  //   "when": "auxiliaryBarVisible"
+  // }
 ]
