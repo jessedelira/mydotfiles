@@ -1,10 +1,9 @@
-theme = "dracula"
 font-family = "MonoLisa"
-font-size = "18"
+font-size = 16
+theme = Everforest Dark Hard
 
 title = ""
 macos-titlebar-style = "tabs"
-
 keybind = cmd+n=new_tab
 
 window-padding-x = 15
@@ -12,18 +11,5 @@ window-padding-y = 15
 
 mouse-hide-while-typing = true
 scrollback-limit = 1000000
-
-
-keybind = ctrl+j>up=goto_split:top
-keybind = ctrl+j>down=goto_split:bottom
-keybind = ctrl+j>left=goto_split:left
-keybind = ctrl+j>right=goto_split:right
-
-keybind = ctrl+j>h=new_split:left
-keybind = ctrl+j>j=new_split:down
-keybind = ctrl+j>k=new_split:up
-keybind = ctrl+j>l=new_split:right
-
-
 
 window-save-state = always
