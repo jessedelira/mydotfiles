@@ -11,7 +11,8 @@
   "buffer_font_size": 15.0,
   "agent_ui_font_size": 16.0,
   "ui_font_size": 16.0,
-  "agent_buffer_font_size": 15.0,
+  "agent_buffer_font_size": 14.0,
+  "hover_popover_delay": 150,
   "scrollbar": {
     "axes": {
       "horizontal": true
@@ -22,6 +23,13 @@
   },
   "debugger": {
     "button": true
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
   },
   "search": {
     "button": false
@@ -60,7 +68,7 @@
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 10
+      "milliseconds": 1
     }
   },
   "base_keymap": "VSCode",
@@ -70,14 +78,14 @@
     "edit_prediction_provider": "none"
   },
   "agent": {
-    "default_profile": "ask",
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
     },
     "enabled": true
   },
-
   "outline_panel": {
     "button": false
   },
@@ -106,5 +114,19 @@
       "enabled": true
     }
   },
-  "hide_mouse": "on_typing"
+  "hide_mouse": "on_typing",
+  "sticky_scroll": {
+    "enabled": true
+  },
+    "lsp": {
+      "vtsls": {
+        "settings": {
+          "js/ts": {
+            "hover": {
+              "maximumLength": 2000
+            }
+          }
+        }
+      }
+    }
 }
