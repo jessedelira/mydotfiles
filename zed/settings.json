@@ -7,53 +7,59 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_edit_predictions": false,
+  "git_panel": {
+    "dock": "left",
+  },
   "theme": "Everforest Dark Hard",
   "buffer_font_size": 15.0,
   "agent_ui_font_size": 16.0,
   "ui_font_size": 16.0,
   "agent_buffer_font_size": 14.0,
-  "hover_popover_delay": 150,
+  "hover_popover_delay": 225,
   "scrollbar": {
     "axes": {
-      "horizontal": true
-    }
+      "horizontal": true,
+    },
   },
   "diagnostics": {
-    "button": true
+    "button": true,
   },
   "debugger": {
-    "button": true
+    "button": true,
   },
   "notification_panel": {
-    "button": false
+    "button": false,
   },
   "toolbar": {
     "breadcrumbs": false,
-    "quick_actions": false
+    "quick_actions": false,
   },
   "search": {
-    "button": false
+    "button": false,
   },
   "tabs": {
-    "git_status": true
+    "git_status": true,
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "tab_bar": {
-    "show": true
+    "show": true,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false,
   },
   "status_bar": {
     "cursor_position_button": false,
-    "active_language_button": false
+    "active_language_button": false,
   },
   "project_panel": {
-    "button": true
+    "button": true,
   },
   "disable_ai": false,
-  "icon_theme": "Colored Zed Icons Theme Dark",
+  "icon_theme": "Catppuccin Mocha",
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "cursor_blink": true,
   "linked_edits": true,
@@ -61,33 +67,34 @@
   "terminal": {
     "button": false,
     "line_height": {
-      "custom": 1
+      "custom": 1,
     },
     "font_family": "MonoLisa",
-    "font_size": 15.0
+    "font_size": 15.0,
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 1
-    }
+      "milliseconds": 1,
+    },
   },
   "base_keymap": "VSCode",
   "buffer_font_family": "MonoLisa",
   "ui_font_family": "MonoLisa",
   "features": {
-    "edit_prediction_provider": "none"
+    "edit_prediction_provider": "none",
   },
   "agent": {
+    "enable_feedback": false,
     "always_allow_tool_actions": true,
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "provider": "zed.dev",
+      "model": "claude-haiku-4-5",
     },
-    "enabled": true
+    "enabled": true,
   },
   "outline_panel": {
-    "button": false
+    "button": false,
   },
   "title_bar": {
     "show_menus": false,
@@ -96,37 +103,57 @@
     "show_branch_icon": false,
     "show_onboarding_banner": false,
     "show_user_picture": false,
-    "show_sign_in": false
+    "show_sign_in": false,
   },
   "git": {
     "git_gutter": "tracked_files",
     "hunk_style": "staged_hollow",
     "branch_picker": {
-      "show_author_name": true
+      "show_author_name": true,
     },
     "blame": {
-      "show_avatar": true
+      "show_avatar": true,
     },
     "inline_blame": {
       "min_column": 0,
       "padding": 7,
       "show_commit_summary": false,
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
   "hide_mouse": "on_typing",
   "sticky_scroll": {
-    "enabled": true
+    "enabled": true,
   },
-    "lsp": {
-      "vtsls": {
-        "settings": {
-          "js/ts": {
-            "hover": {
-              "maximumLength": 2000
-            }
-          }
-        }
-      }
-    }
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "js/ts": {
+          "hover": {
+            "maximumLength": 2000,
+          },
+        },
+      },
+    },
+  },
+  "languages": {
+    "TypeScript": {
+      "formatter": "language_server",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true,
+      },
+    },
+    "Python": {
+      "language_servers": [
+        // Disable basedpyright and enable Ty, and otherwise
+        // use the default configuration.
+        "ty",
+        "!basedpyright",
+        "...",
+      ],
+    },
+  },
+  "colorize_brackets": true,
+  "extend_comment_on_newline": false,
+  
 }
